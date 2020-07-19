@@ -8,7 +8,7 @@
 - React
 - JSON
 - CSS/SASS
-- Webpack, Gulp
+- Webpack
 
 ### Futures
 
