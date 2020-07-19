@@ -1,0 +1,77 @@
+{
+  "category": [
+    {
+      "id": 1,
+      "nameCat": "elektronika",
+      "subcategory": {
+        "id": 1,
+        "nameSubCat": "komputery"
+      },
+      "products": [
+        {
+          "id": 1,
+          "title": "Komputer do gier",
+          "primpic": "img",
+          "pict": [],
+          "price": 5000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "nowy",
+          "prod": "MSI",
+          "category": "elektronika",
+          "subcat": "komputery"
+        },
+        {
+          "id": 2,
+          "title": "Komputer do biura",
+          "primpic": "img",
+          "pict": [],
+          "price": 3000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "nowy",
+          "prod": "MSI",
+          "category": "elektronika",
+          "subcat": "komputery"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nameCat": "motoryzacja",
+      "subcategory": {
+        "id": 1,
+        "nameSubCat": "samochody"
+      },
+      "products": [
+        {
+          "id": 1,
+          "title": "Audi A3 8L",
+          "primpic": "img",
+          "pict": [],
+          "price": 15000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "używany",
+          "prod": "Audi",
+          "model": "A3",
+          "category": "motoryzacja",
+          "subcat": "samochody"
+        },
+        {
+          "id": 2,
+          "title": "Dacia Duster",
+          "primpic": "img",
+          "pict": [],
+          "price": 300000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "nowy",
+          "prod": "Dacia",
+          "category": "motoryzacja",
+          "subcat": "samochody"
+        }
+      ]
+    }
+  ]
+}
