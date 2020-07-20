@@ -59,7 +59,7 @@
   flex-wrap: wrap;
 }
 li {
-  margin-right: 5%;
+  margin-right: 10%;
   list-style-type: none;
   text-align: center;
   cursor: pointer;

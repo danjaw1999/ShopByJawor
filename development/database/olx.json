@@ -32,6 +32,7 @@
           "contact": 788684524,
           "state": "nowy",
           "prod": "MSI",
+          "model": "Gaming",
           "category": "Elektronika",
           "isProm": false,
           "subcat": "Komputery"
@@ -71,6 +72,7 @@
           "contact": 788684524,
           "state": "nowy",
           "prod": "Dacia",
+          "model": "A3",
           "category": "Motoryzacja",
           "isProm": false,
           "subcat": "samochody"
@@ -110,6 +112,7 @@
           "contact": 788684524,
           "state": "nowy",
           "prod": "Dacia",
+          "model": "A3",
           "category": "Nieruchomości",
           "isProm": false,
           "subcat": "Domy"
@@ -149,6 +152,7 @@
           "contact": 788684524,
           "state": "nowy",
           "prod": "Dacia",
+          "model": "A3",
           "category": "Muzyka i edukacja",
           "isProm": false,
           "subcat": "Muzyka"
@@ -188,6 +192,7 @@
           "contact": 788684524,
           "state": "nowy",
           "prod": "Dacia",
+          "model": "A3",
           "category": "Dla Dzieci",
           "isProm": false,
           "subcat": "Zabawki"
@@ -227,6 +232,7 @@
           "contact": 788684524,
           "state": "nowy",
           "prod": "Dacia",
+          "model": "A3",
           "category": "Rolnictwo",
           "isProm": false,
           "subcat": "Ciągniki"
@@ -258,17 +264,18 @@
         },
         {
           "id": 2,
-          "title": "Dacia Duster",
+          "title": "Samsung S10+",
           "primpic": "img",
           "pict": [],
           "price": 300000,
           "desc": "Opis długi",
           "contact": 788684524,
           "state": "nowy",
-          "prod": "Dacia",
-          "category": "Zwierzęta",
+          "prod": "Samsung",
+          "model": "S10+",
+          "category": "Telefony",
           "isProm": false,
-          "subcat": "Karma"
+          "subcat": "Dotykowe"
         }
       ]
     },
@@ -297,17 +304,18 @@
         },
         {
           "id": 2,
-          "title": "Dacia Duster",
+          "title": "Samsung S10+",
           "primpic": "img",
           "pict": [],
           "price": 300000,
           "desc": "Opis długi",
           "contact": 788684524,
           "state": "nowy",
-          "prod": "Dacia",
-          "category": "Motoryzacja",
+          "prod": "Samsung",
+          "model": "S10+",
+          "category": "Telefony",
           "isProm": false,
-          "subcat": "samochody"
+          "subcat": "Dotykowe"
         }
       ]
     },
@@ -336,290 +344,58 @@
         },
         {
           "id": 2,
-          "title": "Dacia Duster",
+          "title": "Samsung S10+",
           "primpic": "img",
           "pict": [],
           "price": 300000,
           "desc": "Opis długi",
           "contact": 788684524,
           "state": "nowy",
-          "prod": "Dacia",
-          "category": "Motoryzacja",
+          "prod": "Samsung",
+          "model": "S10+",
+          "category": "Telefony",
           "isProm": false,
-          "subcat": "samochody"
+          "subcat": "Dotykowe"
         }
       ]
     },
     {
-      "id": 2,
-      "nameCat": "Motoryzacja",
+      "id": 10,
+      "nameCat": "Telefony",
       "subcategory": {
         "id": 1,
-        "nameSubCat": "samochody"
+        "nameSubCat": "Dotykowe"
       },
       "products": [
         {
           "id": 1,
-          "title": "Audi A3 8L",
+          "title": "IPhone X",
           "primpic": "img",
           "pict": [],
-          "price": 15000,
+          "price": 2000,
           "desc": "Opis długi",
           "contact": 788684524,
           "state": "używany",
-          "prod": "Audi",
-          "model": "A3",
-          "category": "Motoryzacja",
+          "prod": "Apple",
+          "model": "X",
+          "category": "Telefony",
           "isProm": false,
-          "subcat": "samochody"
+          "subcat": "Dotykowe"
         },
         {
           "id": 2,
-          "title": "Dacia Duster",
+          "title": "Samsung S10+",
           "primpic": "img",
           "pict": [],
           "price": 300000,
           "desc": "Opis długi",
           "contact": 788684524,
           "state": "nowy",
-          "prod": "Dacia",
-          "category": "Motoryzacja",
+          "prod": "Samsung",
+          "model": "S10+",
+          "category": "Telefony",
           "isProm": false,
-          "subcat": "samochody"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "nameCat": "Motoryzacja",
-      "subcategory": {
-        "id": 1,
-        "nameSubCat": "samochody"
-      },
-      "products": [
-        {
-          "id": 1,
-          "title": "Audi A3 8L",
-          "primpic": "img",
-          "pict": [],
-          "price": 15000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "używany",
-          "prod": "Audi",
-          "model": "A3",
-          "category": "Motoryzacja",
-          "isProm": false,
-          "subcat": "samochody"
-        },
-        {
-          "id": 2,
-          "title": "Dacia Duster",
-          "primpic": "img",
-          "pict": [],
-          "price": 300000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "nowy",
-          "prod": "Dacia",
-          "category": "Motoryzacja",
-          "isProm": false,
-          "subcat": "samochody"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "nameCat": "Motoryzacja",
-      "subcategory": {
-        "id": 1,
-        "nameSubCat": "samochody"
-      },
-      "products": [
-        {
-          "id": 1,
-          "title": "Audi A3 8L",
-          "primpic": "img",
-          "pict": [],
-          "price": 15000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "używany",
-          "prod": "Audi",
-          "model": "A3",
-          "category": "Motoryzacja",
-          "isProm": false,
-          "subcat": "samochody"
-        },
-        {
-          "id": 2,
-          "title": "Dacia Duster",
-          "primpic": "img",
-          "pict": [],
-          "price": 300000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "nowy",
-          "prod": "Dacia",
-          "category": "Motoryzacja",
-          "isProm": false,
-          "subcat": "samochody"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "nameCat": "Motoryzacja",
-      "subcategory": {
-        "id": 1,
-        "nameSubCat": "samochody"
-      },
-      "products": [
-        {
-          "id": 1,
-          "title": "Audi A3 8L",
-          "primpic": "img",
-          "pict": [],
-          "price": 15000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "używany",
-          "prod": "Audi",
-          "model": "A3",
-          "category": "Motoryzacja",
-          "isProm": false,
-          "subcat": "samochody"
-        },
-        {
-          "id": 2,
-          "title": "Dacia Duster",
-          "primpic": "img",
-          "pict": [],
-          "price": 300000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "nowy",
-          "prod": "Dacia",
-          "category": "Motoryzacja",
-          "isProm": false,
-          "subcat": "samochody"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "nameCat": "Motoryzacja",
-      "subcategory": {
-        "id": 1,
-        "nameSubCat": "samochody"
-      },
-      "products": [
-        {
-          "id": 1,
-          "title": "Audi A3 8L",
-          "primpic": "img",
-          "pict": [],
-          "price": 15000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "używany",
-          "prod": "Audi",
-          "model": "A3",
-          "category": "Motoryzacja",
-          "isProm": false,
-          "subcat": "samochody"
-        },
-        {
-          "id": 2,
-          "title": "Dacia Duster",
-          "primpic": "img",
-          "pict": [],
-          "price": 300000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "nowy",
-          "prod": "Dacia",
-          "category": "Motoryzacja",
-          "isProm": false,
-          "subcat": "samochody"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "nameCat": "Motoryzacja",
-      "subcategory": {
-        "id": 1,
-        "nameSubCat": "samochody"
-      },
-      "products": [
-        {
-          "id": 1,
-          "title": "Audi A3 8L",
-          "primpic": "img",
-          "pict": [],
-          "price": 15000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "używany",
-          "prod": "Audi",
-          "model": "A3",
-          "category": "Motoryzacja",
-          "isProm": false,
-          "subcat": "samochody"
-        },
-        {
-          "id": 2,
-          "title": "Dacia Duster",
-          "primpic": "img",
-          "pict": [],
-          "price": 300000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "nowy",
-          "prod": "Dacia",
-          "category": "Motoryzacja",
-          "isProm": false,
-          "subcat": "samochody"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "nameCat": "Motoryzacja",
-      "subcategory": {
-        "id": 1,
-        "nameSubCat": "samochody"
-      },
-      "products": [
-        {
-          "id": 1,
-          "title": "Audi A3 8L",
-          "primpic": "img",
-          "pict": [],
-          "price": 15000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "używany",
-          "prod": "Audi",
-          "model": "A3",
-          "category": "Motoryzacja",
-          "isProm": false,
-          "subcat": "samochody"
-        },
-        {
-          "id": 2,
-          "title": "Dacia Duster",
-          "primpic": "img",
-          "pict": [],
-          "price": 300000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "nowy",
-          "prod": "Dacia",
-          "category": "Motoryzacja",
-          "isProm": false,
-          "subcat": "samochody"
+          "subcat": "Dotykowe"
         }
       ]
     }
