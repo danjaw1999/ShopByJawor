@@ -281,10 +281,10 @@
     },
     {
       "id": 8,
-      "nameCat": "Motoryzacja",
+      "nameCat": "Budowlane",
       "subcategory": {
         "id": 1,
-        "nameSubCat": "samochody"
+        "nameSubCat": "Lampy"
       },
       "products": [
         {
@@ -298,9 +298,9 @@
           "state": "używany",
           "prod": "Audi",
           "model": "A3",
-          "category": "Motoryzacja",
+          "category": "Budowlane",
           "isProm": false,
-          "subcat": "samochody"
+          "subcat": "Lampy"
         },
         {
           "id": 2,
@@ -313,18 +313,18 @@
           "state": "nowy",
           "prod": "Samsung",
           "model": "S10+",
-          "category": "Telefony",
+          "category": "Budowlane",
           "isProm": false,
-          "subcat": "Dotykowe"
+          "subcat": "Lampy"
         }
       ]
     },
     {
-      "id": 2,
-      "nameCat": "Motoryzacja",
+      "id": 9,
+      "nameCat": "Spożywczak",
       "subcategory": {
         "id": 1,
-        "nameSubCat": "samochody"
+        "nameSubCat": "Chemia"
       },
       "products": [
         {
@@ -338,9 +338,9 @@
           "state": "używany",
           "prod": "Audi",
           "model": "A3",
-          "category": "Motoryzacja",
+          "category": "Spożywczak",
           "isProm": false,
-          "subcat": "samochody"
+          "subcat": "Chemia"
         },
         {
           "id": 2,
@@ -353,9 +353,9 @@
           "state": "nowy",
           "prod": "Samsung",
           "model": "S10+",
-          "category": "Telefony",
+          "category": "Spożywczak",
           "isProm": false,
-          "subcat": "Dotykowe"
+          "subcat": "Chemia"
         }
       ]
     },

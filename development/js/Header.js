@@ -33,6 +33,7 @@ const NavBar = () => {
 };
 
 const Header = () => {
+  const [isLog, setIsLog] = useState(false);
   return (
     <>
       <div className="header">
@@ -41,7 +42,11 @@ const Header = () => {
             <img src="../img/sbj_logo.png" width="100" />
           </a>
         </div>
-        <div className="text">Witaj, zaloguj się by kupić rzeczy!!</div>
+        <div className="text">
+          {isLog == !true
+            ? "Witaj, zaloguj się by kupić rzeczy!!"
+            : "Witaj, nazwa"}
+        </div>
         <div className="button-nav">
           <button className="button">Zaloguj się</button>
           <button className="button">Zarejestruj się </button>
