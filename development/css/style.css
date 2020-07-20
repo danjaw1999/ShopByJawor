@@ -12,6 +12,7 @@
   height: 70px;
   align-items: center;
   font-size: 1.5em;
+  width: 100%;
 }
 .text {
   font-size: 2em;
@@ -38,4 +39,71 @@
   cursor: pointer;
   border: 1px solid #94f7f1;
   border-radius: 5%;
+}
+.textMain {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 3em;
+}
+.mainCategories {
+  margin: 0 auto;
+}
+.uppCat {
+  display: flex;
+  width: 1238px;
+  align-items: flex-start;
+  justify-content: center;
+  height: 30vh;
+  margin: 0 auto;
+  margin-top: 2%;
+  flex-wrap: wrap;
+}
+li {
+  margin-right: 5%;
+  list-style-type: none;
+  text-align: center;
+  cursor: pointer;
+}
+.container {
+  width: 1238px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  height: 20vh;
+  text-align: center;
+}
+.center {
+  width: 1238px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.promote {
+  margin-top: 10%;
+}
+.promOg {
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 320px;
+  width: 290px;
+  border: 1px solid black;
+}
+.about {
+  flex-direction: column;
+  margin-top: 10px;
+}
+.about ul {
+  flex-direction: row;
+  display: flex;
+}
+.footer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  background-color: #2e365d;
 }

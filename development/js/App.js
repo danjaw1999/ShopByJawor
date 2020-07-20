@@ -8,6 +8,9 @@ import {
   NavLink
 } from "react-router-dom";
 import Header from "./Header";
+import Info from "./Info";
+import Promotion from "./Promotion";
+import Footer from "./Footer";
 
 const App = () => {
   return (
@@ -15,6 +18,9 @@ const App = () => {
       <>
         <Header />
       </>
+      <Info />
+      <Promotion />
+      <Footer />
     </Router>
   );
 };

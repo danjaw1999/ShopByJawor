@@ -2,10 +2,10 @@
   "category": [
     {
       "id": 1,
-      "nameCat": "elektronika",
+      "nameCat": "Elektronika",
       "subcategory": {
         "id": 1,
-        "nameSubCat": "komputery"
+        "nameSubCat": "Komputery"
       },
       "products": [
         {
@@ -18,8 +18,9 @@
           "contact": 788684524,
           "state": "nowy",
           "prod": "MSI",
-          "category": "elektronika",
-          "subcat": "komputery"
+          "category": "Elektronika",
+          "isProm": false,
+          "subcat": "Komputery"
         },
         {
           "id": 2,
@@ -31,14 +32,15 @@
           "contact": 788684524,
           "state": "nowy",
           "prod": "MSI",
-          "category": "elektronika",
-          "subcat": "komputery"
+          "category": "Elektronika",
+          "isProm": false,
+          "subcat": "Komputery"
         }
       ]
     },
     {
       "id": 2,
-      "nameCat": "motoryzacja",
+      "nameCat": "Motoryzacja",
       "subcategory": {
         "id": 1,
         "nameSubCat": "samochody"
@@ -55,7 +57,8 @@
           "state": "używany",
           "prod": "Audi",
           "model": "A3",
-          "category": "motoryzacja",
+          "category": "Motoryzacja",
+          "isProm": false,
           "subcat": "samochody"
         },
         {
@@ -68,7 +71,554 @@
           "contact": 788684524,
           "state": "nowy",
           "prod": "Dacia",
-          "category": "motoryzacja",
+          "category": "Motoryzacja",
+          "isProm": false,
+          "subcat": "samochody"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nameCat": "Nieruchomości",
+      "subcategory": {
+        "id": 1,
+        "nameSubCat": "Domy"
+      },
+      "products": [
+        {
+          "id": 1,
+          "title": "Willa z Basenem",
+          "primpic": "img",
+          "pict": [],
+          "price": 15000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "używany",
+          "prod": "Audi",
+          "model": "A3",
+          "category": "Nieruchomości",
+          "isProm": false,
+          "subcat": "Domy"
+        },
+        {
+          "id": 2,
+          "title": "Rudera do odnowienia",
+          "primpic": "img",
+          "pict": [],
+          "price": 30000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "nowy",
+          "prod": "Dacia",
+          "category": "Nieruchomości",
+          "isProm": false,
+          "subcat": "Domy"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nameCat": "Muzyka i edukacja",
+      "subcategory": {
+        "id": 1,
+        "nameSubCat": "Muzyka"
+      },
+      "products": [
+        {
+          "id": 1,
+          "title": "Audi A3 8L",
+          "primpic": "img",
+          "pict": [],
+          "price": 15000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "używany",
+          "prod": "Audi",
+          "model": "A3",
+          "category": "Muzyka i edukacja",
+          "isProm": false,
+          "subcat": "Muzyka"
+        },
+        {
+          "id": 2,
+          "title": "Dacia Duster",
+          "primpic": "img",
+          "pict": [],
+          "price": 300000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "nowy",
+          "prod": "Dacia",
+          "category": "Muzyka i edukacja",
+          "isProm": false,
+          "subcat": "Muzyka"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nameCat": "Dla Dzieci",
+      "subcategory": {
+        "id": 1,
+        "nameSubCat": "Zabawki"
+      },
+      "products": [
+        {
+          "id": 1,
+          "title": "Audi A3 8L",
+          "primpic": "img",
+          "pict": [],
+          "price": 15000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "używany",
+          "prod": "Audi",
+          "model": "A3",
+          "category": "Dla Dzieci",
+          "isProm": false,
+          "subcat": "Zabawki"
+        },
+        {
+          "id": 2,
+          "title": "Dacia Duster",
+          "primpic": "img",
+          "pict": [],
+          "price": 300000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "nowy",
+          "prod": "Dacia",
+          "category": "Dla Dzieci",
+          "isProm": false,
+          "subcat": "Zabawki"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nameCat": "Rolnictwo",
+      "subcategory": {
+        "id": 1,
+        "nameSubCat": "Ciągniki"
+      },
+      "products": [
+        {
+          "id": 1,
+          "title": "Audi A3 8L",
+          "primpic": "img",
+          "pict": [],
+          "price": 15000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "używany",
+          "prod": "Audi",
+          "model": "A3",
+          "category": "Rolnictwo",
+          "isProm": false,
+          "subcat": "Ciągniki"
+        },
+        {
+          "id": 2,
+          "title": "Dacia Duster",
+          "primpic": "img",
+          "pict": [],
+          "price": 300000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "nowy",
+          "prod": "Dacia",
+          "category": "Rolnictwo",
+          "isProm": false,
+          "subcat": "Ciągniki"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nameCat": "Zwierzęta",
+      "subcategory": {
+        "id": 1,
+        "nameSubCat": "Karma"
+      },
+      "products": [
+        {
+          "id": 1,
+          "title": "Audi A3 8L",
+          "primpic": "img",
+          "pict": [],
+          "price": 15000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "używany",
+          "prod": "Audi",
+          "model": "A3",
+          "category": "Zwierzęta",
+          "isProm": false,
+          "subcat": "Karma"
+        },
+        {
+          "id": 2,
+          "title": "Dacia Duster",
+          "primpic": "img",
+          "pict": [],
+          "price": 300000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "nowy",
+          "prod": "Dacia",
+          "category": "Zwierzęta",
+          "isProm": false,
+          "subcat": "Karma"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nameCat": "Motoryzacja",
+      "subcategory": {
+        "id": 1,
+        "nameSubCat": "samochody"
+      },
+      "products": [
+        {
+          "id": 1,
+          "title": "Audi A3 8L",
+          "primpic": "img",
+          "pict": [],
+          "price": 15000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "używany",
+          "prod": "Audi",
+          "model": "A3",
+          "category": "Motoryzacja",
+          "isProm": false,
+          "subcat": "samochody"
+        },
+        {
+          "id": 2,
+          "title": "Dacia Duster",
+          "primpic": "img",
+          "pict": [],
+          "price": 300000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "nowy",
+          "prod": "Dacia",
+          "category": "Motoryzacja",
+          "isProm": false,
+          "subcat": "samochody"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nameCat": "Motoryzacja",
+      "subcategory": {
+        "id": 1,
+        "nameSubCat": "samochody"
+      },
+      "products": [
+        {
+          "id": 1,
+          "title": "Audi A3 8L",
+          "primpic": "img",
+          "pict": [],
+          "price": 15000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "używany",
+          "prod": "Audi",
+          "model": "A3",
+          "category": "Motoryzacja",
+          "isProm": false,
+          "subcat": "samochody"
+        },
+        {
+          "id": 2,
+          "title": "Dacia Duster",
+          "primpic": "img",
+          "pict": [],
+          "price": 300000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "nowy",
+          "prod": "Dacia",
+          "category": "Motoryzacja",
+          "isProm": false,
+          "subcat": "samochody"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nameCat": "Motoryzacja",
+      "subcategory": {
+        "id": 1,
+        "nameSubCat": "samochody"
+      },
+      "products": [
+        {
+          "id": 1,
+          "title": "Audi A3 8L",
+          "primpic": "img",
+          "pict": [],
+          "price": 15000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "używany",
+          "prod": "Audi",
+          "model": "A3",
+          "category": "Motoryzacja",
+          "isProm": false,
+          "subcat": "samochody"
+        },
+        {
+          "id": 2,
+          "title": "Dacia Duster",
+          "primpic": "img",
+          "pict": [],
+          "price": 300000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "nowy",
+          "prod": "Dacia",
+          "category": "Motoryzacja",
+          "isProm": false,
+          "subcat": "samochody"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nameCat": "Motoryzacja",
+      "subcategory": {
+        "id": 1,
+        "nameSubCat": "samochody"
+      },
+      "products": [
+        {
+          "id": 1,
+          "title": "Audi A3 8L",
+          "primpic": "img",
+          "pict": [],
+          "price": 15000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "używany",
+          "prod": "Audi",
+          "model": "A3",
+          "category": "Motoryzacja",
+          "isProm": false,
+          "subcat": "samochody"
+        },
+        {
+          "id": 2,
+          "title": "Dacia Duster",
+          "primpic": "img",
+          "pict": [],
+          "price": 300000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "nowy",
+          "prod": "Dacia",
+          "category": "Motoryzacja",
+          "isProm": false,
+          "subcat": "samochody"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nameCat": "Motoryzacja",
+      "subcategory": {
+        "id": 1,
+        "nameSubCat": "samochody"
+      },
+      "products": [
+        {
+          "id": 1,
+          "title": "Audi A3 8L",
+          "primpic": "img",
+          "pict": [],
+          "price": 15000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "używany",
+          "prod": "Audi",
+          "model": "A3",
+          "category": "Motoryzacja",
+          "isProm": false,
+          "subcat": "samochody"
+        },
+        {
+          "id": 2,
+          "title": "Dacia Duster",
+          "primpic": "img",
+          "pict": [],
+          "price": 300000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "nowy",
+          "prod": "Dacia",
+          "category": "Motoryzacja",
+          "isProm": false,
+          "subcat": "samochody"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nameCat": "Motoryzacja",
+      "subcategory": {
+        "id": 1,
+        "nameSubCat": "samochody"
+      },
+      "products": [
+        {
+          "id": 1,
+          "title": "Audi A3 8L",
+          "primpic": "img",
+          "pict": [],
+          "price": 15000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "używany",
+          "prod": "Audi",
+          "model": "A3",
+          "category": "Motoryzacja",
+          "isProm": false,
+          "subcat": "samochody"
+        },
+        {
+          "id": 2,
+          "title": "Dacia Duster",
+          "primpic": "img",
+          "pict": [],
+          "price": 300000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "nowy",
+          "prod": "Dacia",
+          "category": "Motoryzacja",
+          "isProm": false,
+          "subcat": "samochody"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nameCat": "Motoryzacja",
+      "subcategory": {
+        "id": 1,
+        "nameSubCat": "samochody"
+      },
+      "products": [
+        {
+          "id": 1,
+          "title": "Audi A3 8L",
+          "primpic": "img",
+          "pict": [],
+          "price": 15000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "używany",
+          "prod": "Audi",
+          "model": "A3",
+          "category": "Motoryzacja",
+          "isProm": false,
+          "subcat": "samochody"
+        },
+        {
+          "id": 2,
+          "title": "Dacia Duster",
+          "primpic": "img",
+          "pict": [],
+          "price": 300000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "nowy",
+          "prod": "Dacia",
+          "category": "Motoryzacja",
+          "isProm": false,
+          "subcat": "samochody"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nameCat": "Motoryzacja",
+      "subcategory": {
+        "id": 1,
+        "nameSubCat": "samochody"
+      },
+      "products": [
+        {
+          "id": 1,
+          "title": "Audi A3 8L",
+          "primpic": "img",
+          "pict": [],
+          "price": 15000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "używany",
+          "prod": "Audi",
+          "model": "A3",
+          "category": "Motoryzacja",
+          "isProm": false,
+          "subcat": "samochody"
+        },
+        {
+          "id": 2,
+          "title": "Dacia Duster",
+          "primpic": "img",
+          "pict": [],
+          "price": 300000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "nowy",
+          "prod": "Dacia",
+          "category": "Motoryzacja",
+          "isProm": false,
+          "subcat": "samochody"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nameCat": "Motoryzacja",
+      "subcategory": {
+        "id": 1,
+        "nameSubCat": "samochody"
+      },
+      "products": [
+        {
+          "id": 1,
+          "title": "Audi A3 8L",
+          "primpic": "img",
+          "pict": [],
+          "price": 15000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "używany",
+          "prod": "Audi",
+          "model": "A3",
+          "category": "Motoryzacja",
+          "isProm": false,
+          "subcat": "samochody"
+        },
+        {
+          "id": 2,
+          "title": "Dacia Duster",
+          "primpic": "img",
+          "pict": [],
+          "price": 300000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "nowy",
+          "prod": "Dacia",
+          "category": "Motoryzacja",
+          "isProm": false,
           "subcat": "samochody"
         }
       ]

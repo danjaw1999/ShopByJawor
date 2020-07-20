@@ -16,18 +16,18 @@ const NavBar = () => {
       .then((data) => setProduct(data[0].products));
   }, []);
   return (
-    <div className="navBar">
-      <h2>Kategorie główne</h2>
-      <ul>
+    <div className="mainCategories">
+      <h1 className="textMain">Kategorie główne</h1>
+      <ul className="uppCat">
         {menu?.map((e, index) => (
           <li key={index}>{e.nameCat}</li>
         ))}
       </ul>
-      <ul>
+      {/* <ul>
         {product?.map((e, index) => (
           <li key={index}>{e.title}</li>
         ))}
-      </ul>
+      </ul> */}
     </div>
   );
 };
