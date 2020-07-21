@@ -38,6 +38,12 @@
   cursor: pointer;
   border: 1px solid #94f7f1;
   border-radius: 5%;
+  font-size: 0.5em;
+  width: 100px;
+}
+.button:hover {
+  background-color: #9bf39d;
+  transition: 1s ease-in-out all;
 }
 .textMain {
   text-align: center;
@@ -116,5 +122,8 @@ li {
   background-color: #2e365d;
 }
 .subCat {
+  display: none;
+}
+.show {
   display: block;
 }

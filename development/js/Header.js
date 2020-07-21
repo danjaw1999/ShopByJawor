@@ -15,6 +15,11 @@ const NavBar = () => {
       .then((data) => setProduct(data[0].products))
       .catch((err) => console.log(err));
   }, []);
+  const onClickCat = (e) => {
+    const subCat = document.querySelector(".subCat");
+    const [isVisible, setIsVisible] = useState("none");
+    
+  };
 
   return (
     <div className="mainCategories">
@@ -22,10 +27,10 @@ const NavBar = () => {
       <ul className="uppCat">
         {menu?.map((e, index) => (
           <div className="cat">
-            <li key={index} className="liCat">
+            <li key={index} className="liCat" onClick={onClickCat}>
               {e.nameCat}
             </li>
-            <div className="subCat"></div>
+            <div className="subCat">adsads</div>
           </div>
         ))}
       </ul>
