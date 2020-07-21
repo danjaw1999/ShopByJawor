@@ -9,7 +9,7 @@
       },
       "products": [
         {
-          "id": 1,
+          "id": 9999,
           "title": "Komputer do gier",
           "primpic": "img",
           "pict": [],
@@ -23,7 +23,7 @@
           "subcat": "Komputery"
         },
         {
-          "id": 2,
+          "id": 9998,
           "title": "Komputer do biura",
           "primpic": "img",
           "pict": [],

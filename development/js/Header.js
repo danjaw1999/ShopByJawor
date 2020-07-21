@@ -13,21 +13,28 @@ const NavBar = () => {
   useEffect(() => {
     fetch(`${API}`)
       .then((res) => res.json())
-      .then((data) => setProduct(data[0].products));
+      .then((data) => setProduct(data[0].products))
+      .catch((err) => console.log(err));
   }, []);
+
   return (
     <div className="mainCategories">
       <h1 className="textMain">Kategorie główne</h1>
       <ul className="uppCat">
         {menu?.map((e, index) => (
-          <li key={index}>{e.nameCat}</li>
+          <div className="cat">
+            <li key={index} className="liCat">
+              {e.nameCat}
+            </li>
+            <div className="subCat"></div>
+          </div>
         ))}
       </ul>
-      {/* <ul>
-        {product?.map((e, index) => (
+      <ul>
+        {/* {product?.map((e, index) => (
           <li key={index}>{e.title}</li>
-        ))}
-      </ul> */}
+        ))} */}
+      </ul>
     </div>
   );
 };
