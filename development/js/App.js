@@ -14,14 +14,12 @@ import Footer from "./Footer";
 
 const App = () => {
   return (
-    <Router>
-      <>
-        <Header />
-      </>
+    <>
+      <Header />
       <Info />
       <Promotion />
       <Footer />
-    </Router>
+    </>
   );
 };
 
