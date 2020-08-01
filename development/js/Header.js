@@ -1,26 +1,25 @@
 import React, { useState, useEffect } from "react";
-const API = `http://localhost:3005/category`;
+const API = `http://localhost:3005/`;
 const NavBar = () => {
   const [menu, setMenu] = useState([]);
   useEffect(() => {
-    fetch(API)
+    fetch(`${API}categorys`)
       .then((res) => res.json())
       .then((data) => setMenu(data))
       .catch((err) => console.log(err));
   }, []);
   const [product, setProduct] = useState([]);
+  const [cat, setCat] = useState("");
   useEffect(() => {
-    fetch(`${API}`)
+    fetch(`${API + cat}`)
       .then((res) => res.json())
-      .then((data) => setProduct(data[0].products))
+      .then((data) => setProduct(data))
       .catch((err) => console.log(err));
   }, []);
-  const onClickCat = (e) => {
-    const subCat = document.querySelector(".subCat");
-    const [isVisible, setIsVisible] = useState("none");
+  const getCat = (e) => {
+    //setCat(e.target.value);
+    console.log("test");
   };
-  const zmienna = menu.filter((categoryObject) => categoryObject.id === 1);
-  console.log(zmienna[0]);
 
   return (
     <div className="mainCategories">
@@ -28,21 +27,16 @@ const NavBar = () => {
       <ul className="uppCat">
         {menu?.map((e, index) => (
           <div className="cat">
-            <li key={index} className="liCat" onClick={onClickCat}>
+            <li key={index} className="liCat" onClick={getCat} value={e.url}>
               {e.nameCat}
             </li>
-            <div className="subCat">adsads</div>
           </div>
         ))}
       </ul>
       <ul>
-        {/* {product?.map((e, index) => (
-          <li key={index}>{e.title}</li>
+        {/* {product?.map((e) => (
+          <li>{e.title}</li>
         ))} */}
-        {
-          console.log(typeof zmienna != "undefined" ? zmienna[0].id : "")
-          
-        }
       </ul>
     </div>
   );

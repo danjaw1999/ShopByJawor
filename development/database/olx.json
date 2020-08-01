@@ -1,424 +1,119 @@
 {
-  "category": [
+  "categorys": [
     {
       "id": 1,
       "nameCat": "Elektronika",
-      "subcategory": {
-        "id": 1,
-        "nameSubCat": "Komputery"
-      },
-      "products": [
-        {
-          "id": 9999,
-          "title": "Komputer do gier",
-          "primpic": "img",
-          "pict": [],
-          "price": 5000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "nowy",
-          "prod": "MSI",
-          "category": "Elektronika",
-          "isProm": false,
-          "subcat": "Komputery"
-        },
-        {
-          "id": 9998,
-          "title": "Komputer do biura",
-          "primpic": "img",
-          "pict": [],
-          "price": 3000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "nowy",
-          "prod": "MSI",
-          "model": "Gaming",
-          "category": "Elektronika",
-          "isProm": false,
-          "subcat": "Komputery"
-        }
-      ]
+      "url": "elektronika"
     },
     {
       "id": 2,
       "nameCat": "Motoryzacja",
-      "subcategory": [
-        {
-          "id": 1,
-          "nameSubCat": "samochody"
-        },
-        {
-          "id": 2,
-          "nameSubCat": "motory"
-        }
-      ],
-      "products": [
-        {
-          "id": 1,
-          "title": "Audi A3 8L",
-          "primpic": "img",
-          "pict": [],
-          "price": 15000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "używany",
-          "prod": "Audi",
-          "model": "A3",
-          "category": "Motoryzacja",
-          "isProm": false,
-          "subcat": "samochody"
-        },
-        {
-          "id": 2,
-          "title": "Dacia Duster",
-          "primpic": "img",
-          "pict": [],
-          "price": 300000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "nowy",
-          "prod": "Dacia",
-          "model": "A3",
-          "category": "Motoryzacja",
-          "isProm": false,
-          "subcat": "samochody"
-        },
-        {
-          "id": 3,
-          "title": "Yamaha",
-          "primpic": "img",
-          "pict": [],
-          "price": 300000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "nowy",
-          "prod": "Yamaha",
-          "model": "B5000",
-          "category": "Motoryzacja",
-          "isProm": false,
-          "subcat": "motory "
-        }
-      ]
+      "url": "motoryzacja"
     },
     {
       "id": 3,
-      "nameCat": "Nieruchomości",
-      "subcategory": {
-        "id": 1,
-        "nameSubCat": "Domy"
-      },
-      "products": [
-        {
-          "id": 1,
-          "title": "Willa z Basenem",
-          "primpic": "img",
-          "pict": [],
-          "price": 15000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "używany",
-          "prod": "Audi",
-          "model": "A3",
-          "category": "Nieruchomości",
-          "isProm": false,
-          "subcat": "Domy"
-        },
-        {
-          "id": 2,
-          "title": "Rudera do odnowienia",
-          "primpic": "img",
-          "pict": [],
-          "price": 30000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "nowy",
-          "prod": "Dacia",
-          "model": "A3",
-          "category": "Nieruchomości",
-          "isProm": false,
-          "subcat": "Domy"
-        }
-      ]
+      "nameCat": "Dom",
+      "url": "dom"
     },
     {
       "id": 4,
-      "nameCat": "Muzyka i edukacja",
-      "subcategory": {
-        "id": 1,
-        "nameSubCat": "Muzyka"
-      },
-      "products": [
-        {
-          "id": 1,
-          "title": "Audi A3 8L",
-          "primpic": "img",
-          "pict": [],
-          "price": 15000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "używany",
-          "prod": "Audi",
-          "model": "A3",
-          "category": "Muzyka i edukacja",
-          "isProm": false,
-          "subcat": "Muzyka"
-        },
-        {
-          "id": 2,
-          "title": "Dacia Duster",
-          "primpic": "img",
-          "pict": [],
-          "price": 300000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "nowy",
-          "prod": "Dacia",
-          "model": "A3",
-          "category": "Muzyka i edukacja",
-          "isProm": false,
-          "subcat": "Muzyka"
-        }
-      ]
+      "nameCat": "Nieruchomości",
+      "url": "nieruchomosci"
+    }
+  ],
+  "Elektronika": [
+    {
+      "id": 1,
+      "title": "Komputer do gier",
+      "primpic": "img",
+      "pict": [],
+      "price": 5000,
+      "desc": "Opis długi",
+      "contact": 788684524,
+      "state": "nowy",
+      "prod": "MSI",
+      "isProm": false
     },
     {
-      "id": 5,
-      "nameCat": "Dla Dzieci",
-      "subcategory": {
-        "id": 1,
-        "nameSubCat": "Zabawki"
-      },
-      "products": [
-        {
-          "id": 1,
-          "title": "Audi A3 8L",
-          "primpic": "img",
-          "pict": [],
-          "price": 15000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "używany",
-          "prod": "Audi",
-          "model": "A3",
-          "category": "Dla Dzieci",
-          "isProm": false,
-          "subcat": "Zabawki"
-        },
-        {
-          "id": 2,
-          "title": "Dacia Duster",
-          "primpic": "img",
-          "pict": [],
-          "price": 300000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "nowy",
-          "prod": "Dacia",
-          "model": "A3",
-          "category": "Dla Dzieci",
-          "isProm": false,
-          "subcat": "Zabawki"
-        }
-      ]
+      "id": 2,
+      "title": "Komputer do biura",
+      "primpic": "img",
+      "pict": [],
+      "price": 3000,
+      "desc": "Opis długi",
+      "contact": 788684524,
+      "state": "nowy",
+      "prod": "MSI",
+      "model": "Gaming",
+      "isProm": false
     },
     {
-      "id": 6,
-      "nameCat": "Rolnictwo",
-      "subcategory": {
-        "id": 1,
-        "nameSubCat": "Ciągniki"
-      },
-      "products": [
-        {
-          "id": 1,
-          "title": "Audi A3 8L",
-          "primpic": "img",
-          "pict": [],
-          "price": 15000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "używany",
-          "prod": "Audi",
-          "model": "A3",
-          "category": "Rolnictwo",
-          "isProm": false,
-          "subcat": "Ciągniki"
-        },
-        {
-          "id": 2,
-          "title": "Dacia Duster",
-          "primpic": "img",
-          "pict": [],
-          "price": 300000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "nowy",
-          "prod": "Dacia",
-          "model": "A3",
-          "category": "Rolnictwo",
-          "isProm": false,
-          "subcat": "Ciągniki"
-        }
-      ]
+      "id": 3,
+      "title": "laptop do biura",
+      "primpic": "img",
+      "pict": [],
+      "price": 3000,
+      "desc": "Opis długi",
+      "contact": 788684524,
+      "state": "nowy",
+      "prod": "MSI",
+      "model": "Gaming",
+      "isProm": false
+    }
+  ],
+  "Motoryzacja": [
+    {
+      "id": 1,
+      "title": "samochod",
+      "primpic": "img",
+      "pict": [],
+      "price": 5000,
+      "desc": "Opis długi",
+      "contact": 788684524,
+      "state": "nowy",
+      "prod": "MSI",
+      "isProm": false
     },
     {
-      "id": 7,
-      "nameCat": "Zwierzęta",
-      "subcategory": {
-        "id": 1,
-        "nameSubCat": "Karma"
-      },
-      "products": [
-        {
-          "id": 1,
-          "title": "Audi A3 8L",
-          "primpic": "img",
-          "pict": [],
-          "price": 15000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "używany",
-          "prod": "Audi",
-          "model": "A3",
-          "category": "Zwierzęta",
-          "isProm": false,
-          "subcat": "Karma"
-        },
-        {
-          "id": 2,
-          "title": "Samsung S10+",
-          "primpic": "img",
-          "pict": [],
-          "price": 300000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "nowy",
-          "prod": "Samsung",
-          "model": "S10+",
-          "category": "Telefony",
-          "isProm": false,
-          "subcat": "Dotykowe"
-        }
-      ]
-    },
+      "id": 2,
+      "title": "motocykl",
+      "primpic": "img",
+      "pict": [],
+      "price": 3000,
+      "desc": "Opis długi",
+      "contact": 788684524,
+      "state": "nowy",
+      "prod": "MSI",
+      "model": "Gaming",
+      "isProm": false
+    }
+  ],
+  "Dom": [
     {
-      "id": 8,
-      "nameCat": "Budowlane",
-      "subcategory": {
-        "id": 1,
-        "nameSubCat": "Lampy"
-      },
-      "products": [
-        {
-          "id": 1,
-          "title": "Audi A3 8L",
-          "primpic": "img",
-          "pict": [],
-          "price": 15000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "używany",
-          "prod": "Audi",
-          "model": "A3",
-          "category": "Budowlane",
-          "isProm": false,
-          "subcat": "Lampy"
-        },
-        {
-          "id": 2,
-          "title": "Samsung S10+",
-          "primpic": "img",
-          "pict": [],
-          "price": 300000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "nowy",
-          "prod": "Samsung",
-          "model": "S10+",
-          "category": "Budowlane",
-          "isProm": false,
-          "subcat": "Lampy"
-        }
-      ]
-    },
+      "id": 1,
+      "title": "Krzesło",
+      "primpic": "img",
+      "pict": [],
+      "price": 5000,
+      "desc": "Opis długi",
+      "contact": 788684524,
+      "state": "nowy",
+      "prod": "MSI",
+      "isProm": false
+    }
+  ],
+  "Nieruchości": [
     {
-      "id": 9,
-      "nameCat": "Spożywczak",
-      "subcategory": {
-        "id": 1,
-        "nameSubCat": "Chemia"
-      },
-      "products": [
-        {
-          "id": 1,
-          "title": "Audi A3 8L",
-          "primpic": "img",
-          "pict": [],
-          "price": 15000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "używany",
-          "prod": "Audi",
-          "model": "A3",
-          "category": "Spożywczak",
-          "isProm": false,
-          "subcat": "Chemia"
-        },
-        {
-          "id": 2,
-          "title": "Samsung S10+",
-          "primpic": "img",
-          "pict": [],
-          "price": 300000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "nowy",
-          "prod": "Samsung",
-          "model": "S10+",
-          "category": "Spożywczak",
-          "isProm": false,
-          "subcat": "Chemia"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "nameCat": "Telefony",
-      "subcategory": {
-        "id": 1,
-        "nameSubCat": "Dotykowe"
-      },
-      "products": [
-        {
-          "id": 1,
-          "title": "IPhone X",
-          "primpic": "img",
-          "pict": [],
-          "price": 2000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "używany",
-          "prod": "Apple",
-          "model": "X",
-          "category": "Telefony",
-          "isProm": false,
-          "subcat": "Dotykowe"
-        },
-        {
-          "id": 2,
-          "title": "Samsung S10+",
-          "primpic": "img",
-          "pict": [],
-          "price": 300000,
-          "desc": "Opis długi",
-          "contact": 788684524,
-          "state": "nowy",
-          "prod": "Samsung",
-          "model": "S10+",
-          "category": "Telefony",
-          "isProm": false,
-          "subcat": "Dotykowe"
-        }
-      ]
+      "id": 1,
+      "title": "Willa",
+      "primpic": "img",
+      "pict": [],
+      "price": 50000000,
+      "desc": "Opis długi",
+      "contact": 788684524,
+      "state": "nowy",
+      "prod": "brak",
+      "isProm": false
     }
   ]
 }
