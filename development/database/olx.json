@@ -21,7 +21,7 @@
       "url": "nieruchomosci"
     }
   ],
-  "Elektronika": [
+  "elektronika": [
     {
       "id": 1,
       "title": "Komputer do gier",
@@ -61,7 +61,7 @@
       "isProm": false
     }
   ],
-  "Motoryzacja": [
+  "motoryzacja": [
     {
       "id": 1,
       "title": "samochod",
@@ -88,7 +88,7 @@
       "isProm": false
     }
   ],
-  "Dom": [
+  "dom": [
     {
       "id": 1,
       "title": "Krzesło",
@@ -102,7 +102,7 @@
       "isProm": false
     }
   ],
-  "Nieruchości": [
+  "nieruchości": [
     {
       "id": 1,
       "title": "Willa",

@@ -2,24 +2,24 @@ import React, { useState, useEffect } from "react";
 const API = `http://localhost:3005/`;
 const NavBar = () => {
   const [menu, setMenu] = useState([]);
+  const [product, setProduct] = useState([]);
+  const [cat, setCat] = useState([]);
   useEffect(() => {
     fetch(`${API}categorys`)
       .then((res) => res.json())
       .then((data) => setMenu(data))
       .catch((err) => console.log(err));
   }, []);
-  const [product, setProduct] = useState([]);
-  const [cat, setCat] = useState("");
+  const getCat = (cat) => {
+    setCat([cat]);
+  };
+
   useEffect(() => {
     fetch(`${API + cat}`)
       .then((res) => res.json())
-      .then((data) => setProduct(data))
+      .then((data) => setDupa(data))
       .catch((err) => console.log(err));
   }, []);
-  const getCat = (e) => {
-    //setCat(e.target.value);
-    console.log("test");
-  };
 
   return (
     <div className="mainCategories">
@@ -27,17 +27,20 @@ const NavBar = () => {
       <ul className="uppCat">
         {menu?.map((e, index) => (
           <div className="cat">
-            <li key={index} className="liCat" onClick={getCat} value={e.url}>
+            <li
+              key={index}
+              className="liCat"
+              onClick={() => getCat(e.url)}
+              value={e.url}
+            >
               {e.nameCat}
             </li>
           </div>
         ))}
       </ul>
-      <ul>
-        {/* {product?.map((e) => (
+      <ul>{/* {cat?.map((e) => (
           <li>{e.title}</li>
-        ))} */}
-      </ul>
+        ))} */}</ul>
     </div>
   );
 };
