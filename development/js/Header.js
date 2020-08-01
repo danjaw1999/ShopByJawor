@@ -18,8 +18,9 @@ const NavBar = () => {
   const onClickCat = (e) => {
     const subCat = document.querySelector(".subCat");
     const [isVisible, setIsVisible] = useState("none");
-    
   };
+  const zmienna = menu.filter((categoryObject) => categoryObject.id === 1);
+  console.log(zmienna[0]);
 
   return (
     <div className="mainCategories">
@@ -38,6 +39,10 @@ const NavBar = () => {
         {/* {product?.map((e, index) => (
           <li key={index}>{e.title}</li>
         ))} */}
+        {
+          console.log(typeof zmienna != "undefined" ? zmienna[0].id : "")
+          
+        }
       </ul>
     </div>
   );

@@ -42,10 +42,16 @@
     {
       "id": 2,
       "nameCat": "Motoryzacja",
-      "subcategory": {
-        "id": 1,
-        "nameSubCat": "samochody"
-      },
+      "subcategory": [
+        {
+          "id": 1,
+          "nameSubCat": "samochody"
+        },
+        {
+          "id": 2,
+          "nameSubCat": "motory"
+        }
+      ],
       "products": [
         {
           "id": 1,
@@ -76,6 +82,21 @@
           "category": "Motoryzacja",
           "isProm": false,
           "subcat": "samochody"
+        },
+        {
+          "id": 3,
+          "title": "Yamaha",
+          "primpic": "img",
+          "pict": [],
+          "price": 300000,
+          "desc": "Opis długi",
+          "contact": 788684524,
+          "state": "nowy",
+          "prod": "Yamaha",
+          "model": "B5000",
+          "category": "Motoryzacja",
+          "isProm": false,
+          "subcat": "motory "
         }
       ]
     },
