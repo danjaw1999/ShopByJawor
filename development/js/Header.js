@@ -4,6 +4,7 @@ const NavBar = () => {
   const [menu, setMenu] = useState([]);
   const [product, setProduct] = useState([]);
   const [cat, setCat] = useState([]);
+
   useEffect(() => {
     fetch(`${API}categorys`)
       .then((res) => res.json())
@@ -13,7 +14,6 @@ const NavBar = () => {
   const getCat = (cat) => {
     setCat([cat]);
   };
-
   useEffect(() => {
     fetch(`${API + cat}`)
       .then((res) => res.json())
