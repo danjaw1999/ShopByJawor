@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
+import { v4 as uuidv4 } from "uuid";
 const API = `http://localhost:3005/`;
 const NavBar = () => {
   const [menu, setMenu] = useState([]);
-  const [product, setProduct] = useState([]);
+  const [sCat, setSCat] = useState([]);
   const [cat, setCat] = useState([]);
 
   useEffect(() => {
@@ -12,23 +13,20 @@ const NavBar = () => {
       .catch((err) => console.log(err));
   }, []);
   const getCat = (cat) => {
-    setCat([cat]);
-  };
-  useEffect(() => {
     fetch(`${API + cat}`)
       .then((res) => res.json())
-      .then((data) => setDupa(data))
-      .catch((err) => console.log(err));
-  }, []);
+      .then((data) => setSCat(data));
+    setCat([cat]);
+  };
 
   return (
     <div className="mainCategories">
       <h1 className="textMain">Kategorie główne</h1>
       <ul className="uppCat">
-        {menu?.map((e, index) => (
+        {menu?.map((e) => (
           <div className="cat">
             <li
-              key={index}
+              key={uuidv4()}
               className="liCat"
               onClick={() => getCat(e.url)}
               value={e.url}
@@ -38,9 +36,16 @@ const NavBar = () => {
           </div>
         ))}
       </ul>
-      <ul>{/* {cat?.map((e) => (
-          <li>{e.title}</li>
-        ))} */}</ul>
+      <ul className="mainViewLi">
+        {sCat?.map((e) => (
+          <li key={uuidv4()}>
+            <div className="mainView">
+              {e.title}
+              {e.price}
+            </div>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
