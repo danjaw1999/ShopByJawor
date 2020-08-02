@@ -16,6 +16,8 @@ const NavBar = () => {
     fetch(`${API + cat}`)
       .then((res) => res.json())
       .then((data) => setSCat(data));
+    const [getCat, setGetCat] = useState([]);
+    setGetCat = cat;
   };
   return (
     <div className="mainCategories">
@@ -36,8 +38,12 @@ const NavBar = () => {
         {sCat?.map((e) => (
           <li key={uuidv4()}>
             <div className="mainView">
-              {e.title}
-              {e.price}
+              <div>
+                <h2>{e.title}</h2>
+                <NavLink to={`/details/${getCat}/${e.id}`}>hj</NavLink>
+                <p>Zdjęcie</p>
+              </div>
+              <p className="price">Cena: {e.price}zł</p>
             </div>
           </li>
         ))}
