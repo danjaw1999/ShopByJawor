@@ -1,23 +1,25 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Route,
   Link,
   Switch,
   NavLink
 } from "react-router-dom";
 import Header from "./Header";
-import Info from "./Info";
-import Promotion from "./Promotion";
 import Footer from "./Footer";
+import MainView from "./MainView";
 
 const App = () => {
   return (
     <>
       <Header />
-      <Info />
-      <Promotion />
+      <Router>
+        <Switch>
+          <MainView />
+        </Switch>
+      </Router>
       <Footer />
     </>
   );

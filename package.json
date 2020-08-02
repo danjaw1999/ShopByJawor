@@ -22,6 +22,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.10.4",
     "json-server": "^0.16.1",
+    "react-router-dom": "^5.2.0",
     "uuid": "^8.3.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12",
@@ -35,7 +36,6 @@
     "browser-sync": "^2.26.7",
     "node-sass": "^4.14.1",
     "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-router-dom": "^5.2.0"
+    "react-dom": "^16.11.0"
   }
 }
