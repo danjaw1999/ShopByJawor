@@ -32,7 +32,8 @@
       "contact": 788684524,
       "state": "nowy",
       "prod": "MSI",
-      "isProm": false
+      "isProm": false,
+      "url": "elektronika"
     },
     {
       "id": 2,
@@ -45,7 +46,8 @@
       "state": "nowy",
       "prod": "MSI",
       "model": "Gaming",
-      "isProm": false
+      "isProm": false,
+      "url": "elektronika"
     },
     {
       "id": 3,
@@ -58,7 +60,8 @@
       "state": "nowy",
       "prod": "MSI",
       "model": "Gaming",
-      "isProm": false
+      "isProm": false,
+      "url": "elektronika"
     },
     {
       "id": 4,
@@ -71,7 +74,8 @@
       "state": "nowy",
       "prod": "MSI",
       "model": "Gaming",
-      "isProm": false
+      "isProm": false,
+      "url": "elektronika"
     },
     {
       "id": 5,
@@ -84,7 +88,8 @@
       "state": "nowy",
       "prod": "MSI",
       "model": "Gaming",
-      "isProm": false
+      "isProm": false,
+      "url": "elektronika"
     },
     {
       "id": 6,
@@ -97,7 +102,8 @@
       "state": "nowy",
       "prod": "MSI",
       "model": "Gaming",
-      "isProm": false
+      "isProm": false,
+      "url": "elektronika"
     },
     {
       "id": 7,
@@ -110,7 +116,8 @@
       "state": "nowy",
       "prod": "MSI",
       "model": "Gaming",
-      "isProm": false
+      "isProm": false,
+      "url": "elektronika"
     },
     {
       "id": 8,
@@ -123,7 +130,8 @@
       "state": "nowy",
       "prod": "MSI",
       "model": "Gaming",
-      "isProm": false
+      "isProm": false,
+      "url": "elektronika"
     },
     {
       "id": 9,
@@ -136,7 +144,8 @@
       "state": "nowy",
       "prod": "MSI",
       "model": "Gaming",
-      "isProm": false
+      "isProm": false,
+      "url": "elektronika"
     },
     {
       "id": 10,
@@ -149,7 +158,8 @@
       "state": "nowy",
       "prod": "MSI",
       "model": "Gaming",
-      "isProm": false
+      "isProm": false,
+      "url": "elektronika"
     }
   ],
   "motoryzacja": [
@@ -163,7 +173,8 @@
       "contact": 788684524,
       "state": "nowy",
       "prod": "MSI",
-      "isProm": false
+      "isProm": false,
+      "url": "motoryzacja"
     },
     {
       "id": 2,
@@ -176,7 +187,8 @@
       "state": "nowy",
       "prod": "MSI",
       "model": "Gaming",
-      "isProm": false
+      "isProm": false,
+      "url": "motoryzacja"
     }
   ],
   "dom": [
@@ -190,7 +202,8 @@
       "contact": 788684524,
       "state": "nowy",
       "prod": "MSI",
-      "isProm": false
+      "isProm": false,
+      "url": "dom"
     }
   ],
   "nieruchomosci": [
@@ -204,7 +217,8 @@
       "contact": 788684524,
       "state": "nowy",
       "prod": "brak",
-      "isProm": false
+      "isProm": false,
+      "url": "nieruchomosci"
     }
   ]
 }
