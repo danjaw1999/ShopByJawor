@@ -133,14 +133,30 @@ li {
   flex-direction: column;
   margin: 0 auto;
   flex-wrap: wrap;
+  text-decoration: none;
 }
 .mainView {
   border: 1px solid black;
-  height: 130px;
+  height: 183.5px;
   width: 1238px;
+  margin-bottom: 1%;
+  text-decoration: none;
   display: flex;
   justify-content: space-between;
 }
+h2 {
+  text-decoration: none;
+}
 .price {
   margin-top: 4%;
+}
+.hide {
+  display: none;
+}
+.product {
+  width: 1238px;
+  margin: 0 auto;
+}
+.none {
+  text-decoration: none;
 }

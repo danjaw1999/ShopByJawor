@@ -6,7 +6,6 @@ const Products = (props) => {
   const [menu, setMenu] = useState([]);
   const [sCat, setSCat] = useState([]);
   const [category, setCategory] = useState();
-
   useEffect(() => {
     setCategory(props.cat);
     fetch(`${API}categories`)
@@ -25,11 +24,17 @@ const Products = (props) => {
       <ul className="mainViewLi">
         {sCat?.map((e) => (
           <li key={uuidv4()}>
-            <NavLink to={`/details/${e.url}/${e.id}`}>
+            <NavLink
+              className="none"
+              to={`/details/${e.url}/${e.id}`}
+              onClick={() => setIsActive(false)}
+            >
               <div className="mainView">
                 <div>
                   <h2>{e.title}</h2>
-                  <p>Zdjęcie</p>
+                  <p>
+                    <img src={`../img/${e.primpic}`} height="150" width="150" />
+                  </p>
                 </div>
                 <p className="price">Cena: {e.price}zł</p>
               </div>

@@ -3,9 +3,7 @@ import { v4 as uuidv4 } from "uuid";
 import {
   BrowserRouter as Router,
   Route,
-  Link,
   Switch,
-  NavLink,
   useParams
 } from "react-router-dom";
 import Products from "./Products";
@@ -24,7 +22,15 @@ const Details = () => {
 
   return (
     <>
-      <div>{product.title}</div>
+      <div className="product">
+        <h1>{product.title}</h1>
+        <h2>Cena: {product.price} zł</h2>
+        <p>Stan: {product.state}</p>
+        <p>Model: {product.model}</p>
+        <p>Kontakt do właściciela: {product.contact}</p>
+        <h1>Opis</h1>
+        <p>{product.desc}</p>
+      </div>
     </>
   );
 };
@@ -54,7 +60,6 @@ const NavBar = (props) => {
           {menu?.map((e) => (
             <li
               key={uuidv4()}
-              className="liCat"
               onClick={() => {
                 getCat(e.url);
                 setCCat(e.url);
@@ -71,12 +76,9 @@ const NavBar = (props) => {
               <Details />
             </>
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <Products cat={cCat} />
           </Route>
-          {/* <Route path="*" component={NavBar}>
-            <p></p>
-          </Route> */}
         </Switch>
       </div>
     </Router>

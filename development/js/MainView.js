@@ -6,7 +6,6 @@ const MainView = () => {
   return (
     <>
       <NavBar />
-      
       <Info />
       <Promotion />
     </>
