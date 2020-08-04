@@ -2,10 +2,11 @@ import React, { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { NavLink } from "react-router-dom";
 const API = `http://localhost:3005/`;
-const Products = (props) => {
+const Products = (props, { handleHide }) => {
   const [menu, setMenu] = useState([]);
   const [sCat, setSCat] = useState([]);
   const [category, setCategory] = useState();
+
   useEffect(() => {
     setCategory(props.cat);
     fetch(`${API}categories`)
@@ -24,12 +25,8 @@ const Products = (props) => {
       <ul className="mainViewLi">
         {sCat?.map((e) => (
           <li key={uuidv4()}>
-            <NavLink
-              className="none"
-              to={`/details/${e.url}/${e.id}`}
-              onClick={() => setIsActive(false)}
-            >
-              <div className="mainView">
+            <NavLink to={`/${e.url}/${e.id}`}>
+              <div className="mainView" onClick={handleHide}>
                 <div>
                   <h2>{e.title}</h2>
                   <p>

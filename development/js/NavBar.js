@@ -4,7 +4,8 @@ import {
   BrowserRouter as Router,
   Route,
   Switch,
-  useParams
+  useParams,
+  NavLink
 } from "react-router-dom";
 import Products from "./Products";
 const API = `http://localhost:3005/`;
@@ -45,33 +46,37 @@ const NavBar = (props) => {
       .then((res) => res.json())
       .then((data) => setMenu(data))
       .catch((err) => console.log(err));
-  }, []);
+  }, [props]);
   const getCat = (cat) => {
     fetch(`${API + cat}`)
       .then((res) => res.json())
       .then((data) => setSCat(data));
   };
-
+  const [isActive, setIsActive] = useState("show");
+  const handleHide = (e) => {
+    isActive == "show" ? setIsActive("hide") : setIsActive("show");
+    console.log(isActive);
+  };
   return (
     <Router>
-      <div className="mainCategories">
-        <h1 className="textMain">Kategorie główne</h1>
-        <ul className="uppCat">
-          {menu?.map((e) => (
-            <li
-              key={uuidv4()}
-              onClick={() => {
-                getCat(e.url);
-                setCCat(e.url);
-              }}
-              value={e.url}
-            >
-              <div className="cat">{e.nameCat}</div>
-            </li>
-          ))}
-        </ul>
-        <Switch>
-          <Route path="/details/:category/:id">
+      <Switch>
+        <div className="mainCategories">
+          <h1 className="textMain">Kategorie główne</h1>
+          <ul className="uppCat">
+            {menu?.map((e) => (
+              <li
+                key={uuidv4()}
+                onClick={() => {
+                  getCat(e.url);
+                  setCCat(e.url);
+                }}
+                value={e.url}
+              >
+                <div className="cat">{e.nameCat}</div>
+              </li>
+            ))}
+          </ul>
+          <Route path="/:category/:id">
             <>
               <Details />
             </>
@@ -79,8 +84,8 @@ const NavBar = (props) => {
           <Route exact path="/">
             <Products cat={cCat} />
           </Route>
-        </Switch>
-      </div>
+        </div>
+      </Switch>
     </Router>
   );
 };
