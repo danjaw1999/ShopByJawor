@@ -12,7 +12,6 @@ const API = `http://localhost:3005/`;
 
 const Details = () => {
   let params = useParams();
-
   const [product, setProduct] = useState({});
   useEffect(() => {
     fetch(`${API}${params.category}/${params.id}`)
@@ -20,7 +19,6 @@ const Details = () => {
       .then((data) => setProduct(data))
       .catch((err) => console.log(err));
   }, []);
-
   return (
     <>
       <div className="product">
@@ -52,39 +50,40 @@ const NavBar = (props) => {
       .then((res) => res.json())
       .then((data) => setSCat(data));
   };
-  const [isActive, setIsActive] = useState("show");
-  const handleHide = (e) => {
-    isActive == "show" ? setIsActive("hide") : setIsActive("show");
-    console.log(isActive);
+  const Category = () => {
+    return (
+      <div className="mainCategories">
+        <h1 className="textMain">Kategorie główne</h1>
+        <ul className="uppCat">
+          {menu?.map((e) => (
+            <li
+              key={uuidv4()}
+              onClick={() => {
+                getCat(e.url);
+                setCCat(e.url);
+              }}
+              value={e.url}
+            >
+              <div className="cat">{e.nameCat}</div>
+            </li>
+          ))}
+        </ul>
+      </div>
+    );
   };
+
   return (
     <Router>
+      <Category />
       <Switch>
-        <div className="mainCategories">
-          <h1 className="textMain">Kategorie główne</h1>
-          <ul className="uppCat">
-            {menu?.map((e) => (
-              <li
-                key={uuidv4()}
-                onClick={() => {
-                  getCat(e.url);
-                  setCCat(e.url);
-                }}
-                value={e.url}
-              >
-                <div className="cat">{e.nameCat}</div>
-              </li>
-            ))}
-          </ul>
-          <Route path="/:category/:id">
-            <>
-              <Details />
-            </>
-          </Route>
-          <Route exact path="/">
-            <Products cat={cCat} />
-          </Route>
-        </div>
+        <Route exact path="/">
+          <Products cat={cCat} />
+        </Route>
+        <Route path="/:category/:id">
+          <>
+            <Details />
+          </>
+        </Route>
       </Switch>
     </Router>
   );
