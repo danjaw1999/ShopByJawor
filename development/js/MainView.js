@@ -7,7 +7,6 @@ const MainView = () => {
     <>
       <NavBar />
       <Info />
-      <Promotion />
     </>
   );
 };

@@ -3,21 +3,25 @@
     {
       "id": 1,
       "nameCat": "Elektronika",
+      "img": "phone.png",
       "url": "elektronika"
     },
     {
       "id": 2,
       "nameCat": "Motoryzacja",
+      "img": "car.png",
       "url": "motoryzacja"
     },
     {
       "id": 3,
       "nameCat": "Dom",
+      "img": "home.png",
       "url": "dom"
     },
     {
       "id": 4,
       "nameCat": "Nieruchomości",
+      "img": "village.png",
       "url": "nieruchomosci"
     }
   ],

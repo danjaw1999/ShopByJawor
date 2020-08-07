@@ -120,6 +120,10 @@ li {
   align-items: center;
   height: 5vh;
   background-color: #2e365d;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  clear: both;
 }
 .subCat {
   display: none;
@@ -139,7 +143,7 @@ li {
   border: 1px solid black;
   height: 183.5px;
   width: 1238px;
-  margin-bottom: 1%;
+  margin-bottom: 0.5%;
   text-decoration: none;
   display: flex;
   justify-content: space-between;

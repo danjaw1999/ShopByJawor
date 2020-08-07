@@ -18,7 +18,7 @@ const Details = () => {
       .then((res) => res.json())
       .then((data) => setProduct(data))
       .catch((err) => console.log(err));
-  }, []);
+  }, [params]);
   return (
     <>
       <div className="product">
@@ -64,7 +64,16 @@ const NavBar = (props) => {
               }}
               value={e.url}
             >
-              <div className="cat">{e.nameCat}</div>
+              <NavLink to={`/${e.url}`}>
+                <div className="cat">{e.nameCat}</div>
+                <p>
+                  <img
+                    src={`../img/${e.img}`}
+                    height="50"
+                    style={{ marginTop: "-200px" }}
+                  />{" "}
+                </p>
+              </NavLink>
             </li>
           ))}
         </ul>
@@ -76,7 +85,7 @@ const NavBar = (props) => {
     <Router>
       <Category />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/:category">
           <Products cat={cCat} />
         </Route>
         <Route path="/:category/:id">
