@@ -14,7 +14,9 @@
 
 ### ToDo
 
-- Web Template
-- React Template
+- End a advertisement 
+- Add a advertisement
+- Update a DB
+- RWD if time permits
 
 # How to install?

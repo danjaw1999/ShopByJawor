@@ -11,7 +11,7 @@ const Header = () => {
         </div>
         <div className="text">
           {isLog == !true
-            ? "Witaj, zaloguj się by kupić rzeczy!!"
+            ? "Witaj, zaloguj się by dodać rzeczy!"
             : "Witaj, nazwa"}
         </div>
         <div className="button-nav">

@@ -36,7 +36,6 @@
       "contact": 788684524,
       "state": "nowy",
       "prod": "MSI",
-      "isProm": false,
       "url": "elektronika"
     },
     {
@@ -50,7 +49,6 @@
       "state": "nowy",
       "prod": "MSI",
       "model": "Gaming",
-      "isProm": false,
       "url": "elektronika"
     },
     {
@@ -64,7 +62,6 @@
       "state": "nowy",
       "prod": "MSI",
       "model": "Gaming",
-      "isProm": false,
       "url": "elektronika"
     },
     {
@@ -78,7 +75,6 @@
       "state": "nowy",
       "prod": "MSI",
       "model": "Gaming",
-      "isProm": false,
       "url": "elektronika"
     },
     {
@@ -92,7 +88,6 @@
       "state": "nowy",
       "prod": "MSI",
       "model": "Gaming",
-      "isProm": false,
       "url": "elektronika"
     },
     {
@@ -106,7 +101,6 @@
       "state": "nowy",
       "prod": "MSI",
       "model": "Gaming",
-      "isProm": false,
       "url": "elektronika"
     },
     {
@@ -120,7 +114,6 @@
       "state": "nowy",
       "prod": "MSI",
       "model": "Gaming",
-      "isProm": false,
       "url": "elektronika"
     },
     {
@@ -134,7 +127,6 @@
       "state": "nowy",
       "prod": "MSI",
       "model": "Gaming",
-      "isProm": false,
       "url": "elektronika"
     },
     {
@@ -148,7 +140,6 @@
       "state": "nowy",
       "prod": "MSI",
       "model": "Gaming",
-      "isProm": false,
       "url": "elektronika"
     },
     {
@@ -162,9 +153,9 @@
       "state": "nowy",
       "prod": "MSI",
       "model": "Gaming",
-      "isProm": false,
       "url": "elektronika"
     }
+}
   ],
   "motoryzacja": [
     {
@@ -177,7 +168,6 @@
       "contact": 788684524,
       "state": "nowy",
       "prod": "MSI",
-      "isProm": false,
       "url": "motoryzacja"
     },
     {
@@ -191,7 +181,6 @@
       "state": "nowy",
       "prod": "MSI",
       "model": "Gaming",
-      "isProm": false,
       "url": "motoryzacja"
     }
   ],
@@ -206,7 +195,6 @@
       "contact": 788684524,
       "state": "nowy",
       "prod": "MSI",
-      "isProm": false,
       "url": "dom"
     }
   ],
@@ -221,7 +209,6 @@
       "contact": 788684524,
       "state": "nowy",
       "prod": "brak",
-      "isProm": false,
       "url": "nieruchomosci"
     }
   ]
