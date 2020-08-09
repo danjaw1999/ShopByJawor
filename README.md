@@ -17,6 +17,10 @@
 - Advertisement View
 - Reset a form
 - Create a user
-- Pagination 
+- Pagination
 
 # How to install?
+
+- npm i
+- npm start
+- json-server --watch -p 3005 olx.json
