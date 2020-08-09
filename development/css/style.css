@@ -202,6 +202,10 @@ textarea {
   width: 100%;
   margin-top: 39px;
 }
+.addProd h2,
+.addProd p {
+  margin-top: 10px;
+}
 
 .login-box .user-box input {
   width: 100%;
