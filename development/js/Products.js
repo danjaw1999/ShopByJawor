@@ -27,7 +27,7 @@ const Products = (props, { handleHide }) => {
           <li key={uuidv4()}>
             <NavLink to={`/${e.url}/${e.id}`}>
               <div className="mainView" onClick={handleHide}>
-                <div>
+                <div className="picProd">
                   <h2>{e.title}</h2>
                   <p>
                     <img src={`../img/${e.primpic}`} height="150" width="150" />

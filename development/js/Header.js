@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 const Header = () => {
   const [isLog, setIsLog] = useState(false);
+
   return (
     <>
       <div className="header">
@@ -10,13 +11,10 @@ const Header = () => {
           </a>
         </div>
         <div className="text">
-          {isLog == !true
-            ? "Witaj, zaloguj się by dodać rzeczy!"
-            : "Witaj, nazwa"}
+          {isLog == !true ? "Witaj, kliknij by się zalogować!" : "Witaj, nazwa"}
         </div>
         <div className="button-nav">
-          <button className="button">Zaloguj się</button>
-          <button className="button">Zarejestruj się </button>
+          <button className="button">Logowanie</button>
         </div>
       </div>
     </>

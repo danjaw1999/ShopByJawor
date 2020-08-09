@@ -21,8 +21,13 @@ const Details = () => {
   }, [params]);
   return (
     <>
-      <div className="product">
+      <div className="product rainbow">
         <h1>{product.title}</h1>
+        <img
+          src={`../img/${product.primpic}`}
+          height="300"
+          style={{ margin: "0 auto" }}
+        />
         <h2>Cena: {product.price} zł</h2>
         <p>Stan: {product.state}</p>
         <p>Model: {product.model}</p>

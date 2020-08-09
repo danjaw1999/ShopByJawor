@@ -4,7 +4,6 @@ import Header from "./Header";
 import Footer from "./Footer";
 import MainView from "./MainView";
 import AddAdvertisement from "./AddAdvertisement";
-("");
 
 const App = () => {
   return (

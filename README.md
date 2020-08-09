@@ -10,13 +10,13 @@
 - CSS/SASS
 - Webpack
 
-### Futures
-
 ### ToDo
 
-- End a advertisement 
-- Add a advertisement
-- Update a DB
-- RWD if time permits
+- Bad nofication to validate
+- RWD
+- Advertisement View
+- Reset a form
+- Create a user
+- Pagination 
 
 # How to install?

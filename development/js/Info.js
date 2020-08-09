@@ -14,10 +14,29 @@ const Info = () => {
         <div className="center about">
           <span>Znajdziesz mnie na: </span>
           <ul>
-            <li>FB</li>
-            <li>Instagram</li>
-            <li>Linkedin</li>
-            <li>GitHub</li>
+            <li>
+              <a href="https://www.facebook.com/danjaw1999/" target="_blank">
+                <img src="./../img/fb.png" height="48px"></img>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/danjaw1999" target="_blank">
+                <img src="./../img/gh.png" height="48px"></img>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/danjaw1999/" target="_blank">
+                <img src="./../img/ig.png" height="48px"></img>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/daniel-jaworski-a119011a0/"
+                target="_blank"
+              >
+                <img src="./../img/ld.png" height="48px"></img>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
