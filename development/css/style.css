@@ -174,10 +174,10 @@ h2 {
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
-  top: 50%;
+  top: 35%;
   width: 700px;
-  height: 130%;
-  margin-top: 90px;
+  height: 100%;
+  margin-top: 190px;
   padding: 40px;
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
@@ -386,8 +386,13 @@ textarea {
   top: 1px;
   z-index: 999;
 }
+.user-box input {
+  margin-top: 30px;
+  padding-bottom: 5px;
+}
 .product {
   border: 1px solid black;
+  height: 1000px;
 }
 .product h1 {
   text-align: center;
@@ -404,38 +409,17 @@ textarea {
   }
 }
 
-.rainbow {
-  position: relative;
-  z-index: 0;
-  border-radius: 10px;
-  overflow: hidden;
-  padding: 2rem;
+.product img {
+  width: 660px;
+  height: 445px;
 }
-.rainbow::before {
-  content: "";
-  position: absolute;
-  z-index: -2;
-  left: -50%;
-  top: -50%;
-  width: 200%;
-  height: 200%;
-  background-color: #b3ea0e;
-  background-repeat: no-repeat;
-  background-size: 50% 50%, 50% 50%;
-  background-position: 0 0, 100% 0, 100% 100%, 0 100%;
-  background-image: linear-gradient(#b3ea0e, #b3ea0e),
-    linear-gradient(#fcb04e, #fcb04e), linear-gradient(#ff3232, #ff3232),
-    linear-gradient(#3366ff, #3366ff);
-  animation: rotate 4s linear infinite;
+.product {
+  display: flex;
+  flex-direction: column;
 }
-
-.rainbow::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 6px;
-  top: 6px;
-  width: calc(100% - 12px);
-  height: calc(100% - 12px);
-  border-radius: 5px;
+.spaceb {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
 }

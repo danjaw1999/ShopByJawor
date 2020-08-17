@@ -54,12 +54,17 @@ const AddAvertisement = () => {
       [name]: value
     }));
   };
+  const err = {};
   const validate = () => {
-    const err = {};
     if (form.title.length < 5) {
       err.title = "Tytuł za krótki";
     } else {
       err.title = "";
+    }
+    if (form.price.length < 1) {
+      err.price = "Podaj cenę!";
+    } else {
+      err.price = "";
     }
     if (form.desc.length < 30) {
       err.desc = "Opis musi być dłuższy niż 30 znaków!";
@@ -71,7 +76,7 @@ const AddAvertisement = () => {
     } else {
       err.contact = "";
     }
-    if (form.prod.length < 1) {
+    if (form.prod.length <= 1) {
       err.prod = "Podaj producenta";
     } else {
       err.prod = "";
@@ -124,11 +129,16 @@ const AddAvertisement = () => {
   };
   const [done, isDone] = useState(false);
 
-  const handleClickWait = () => {
-    setTimeout(() => {
-      setIsVisible(!isVisible);
-      isDone(true);
-    }, 2000);
+  const handleClickWait = (e) => {
+    isDone(true);
+
+    e.target.parentElement.parentElement.children[0].children[0].value = "";
+    e.target.parentElement.parentElement.children[2].children[0].value = "";
+    e.target.parentElement.parentElement.children[4].children[1].value = "";
+    e.target.parentElement.parentElement.children[6].children[0].value = "";
+    e.target.parentElement.parentElement.children[10].children[0].value = "";
+    e.target.parentElement.parentElement.children[14].children[0].value = "";
+    setIsVisible(!isVisible);
   };
   const handleQuit = () => {
     isDone(!done);
@@ -154,9 +164,6 @@ const AddAvertisement = () => {
         >
           <div className="addProd">
             <h2>Dodaj ogłoszenie</h2>
-            <p style={{ cursor: "pointer" }} onClick={handleClick}>
-              X
-            </p>
           </div>
 
           <form
@@ -215,9 +222,9 @@ const AddAvertisement = () => {
                 onChange={handleFormData}
                 value={contact}
               />
-              <p className="error">{errors.contact}</p>
               <label>
                 Numer kontaktowy <br />
+                <p className="error">{errors.contact}</p>
               </label>
             </div>
             <br />
@@ -230,7 +237,6 @@ const AddAvertisement = () => {
                 <option>Nowy</option>
                 <option>Używany</option>
               </select>
-              <p className="error">{errors.state}</p>
             </div>
             <br />
             <div className="user-box">
@@ -240,10 +246,10 @@ const AddAvertisement = () => {
                 onChange={handleFormData}
                 value={prod}
               />
-              <p className="error">{errors.prod}</p>
               <label>
                 Producent
                 <br />
+                <p className="error">{errors.prod}</p>
               </label>
             </div>
             <br />
@@ -267,10 +273,10 @@ const AddAvertisement = () => {
                 onChange={handleFormData}
                 value={model}
               />
-              <p className="error">{errors.model}</p>
               <label>
                 Model
                 <br />
+                <p className="error">{errors.model}</p>
               </label>
             </div>
             <br />
@@ -287,14 +293,22 @@ const AddAvertisement = () => {
               </label>
               <br />
             </div>
-
-            <button type="submit" onClick={handleClickWait}>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              Dodaj
-            </button>
+            <div className="spaceb">
+              <button type="submit" onClick={handleClickWait}>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Dodaj
+              </button>
+              <button type="submit" onClick={handleClick}>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Zamknij
+              </button>
+            </div>
           </form>
         </div>
       </div>
